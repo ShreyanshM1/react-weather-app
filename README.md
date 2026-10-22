@@ -1,62 +1,58 @@
 🌦️ React Weather App
 
-A responsive weather application built with React and Vite that allows users to search for a city and view its current weather conditions using the OpenWeatherMap API.
+A clean, responsive weather application built with React that lets users search for cities and view real-time weather information using the OpenWeatherMap API.
 
-✨ Features
+🚀 Features
 
-* 🔍 Search for weather by city name
-* 🌡️ View current temperature in Celsius
-* 💧 Display humidity and feels-like temperature
-* 🌤️ View weather conditions and related images
-* 🌡️ View minimum and maximum temperatures
-* ⚠️ Handle invalid city names and API errors
-* 📱 Simple, responsive user interface
+* 🔍 Search weather by city name
+* 🌡️ Current temperature in Celsius
+* 💧 Humidity and feels-like temperature
+* 🌤️ Weather conditions with visual imagery
+* 📊 Minimum and maximum temperature
+* ⚠️ Invalid-city and API error handling
+* 📱 Responsive user interface
 
 🛠️ Tech Stack
 
-* React
-* JavaScript
-* HTML5
-* CSS3
-* Material UI
-* OpenWeatherMap API
-* Vite
+* Frontend: React, JavaScript, HTML5, CSS3
+* UI Components: Material UI
+* API: OpenWeatherMap
+* Build Tool: Vite
 
-🚀 Getting Started
+📸 Screenshots
+
+![React Weather App](screenshots/weather_app.png)
+
+⚙️ Installation and Setup
 
 1. Clone the repository
 
-git clone https://github.com/ShreyanshMishra/react-weather-app.git
-
-2. Open the project directory
-
+git clone https://github.com/ShreyanshM1/react-weather-app.git
 cd react-weather-app
 
-3. Install dependencies
+2. Install dependencies
 
 npm install
 
-4. Configure the API key
+3. Configure your API key
 
-Create a .env file in the project root directory and add your OpenWeatherMap API key:
+Create a .env file in the project root:
 
 VITE_WEATHER_API_KEY=your_api_key_here
 
-Get an API key from OpenWeatherMap.
+Get your API key from OpenWeatherMap.
 
-5. Start the development server
+4. Start the application
 
 npm run dev
 
-Open the local URL displayed in your terminal.
+Open the local URL shown in your terminal.
 
-🔐 Environment Variables
+🔐 Security
 
-Keep your .env file private. It is excluded through .gitignore and should never be committed to GitHub.
+* The .env file is excluded from Git using .gitignore.
 
-Note: Vite environment variables prefixed with VITE_ are exposed to client-side code. Restrict your API key where supported; for stronger protection, use a backend to make API requests.
-
-📂 Project Structure
+📁 Project Structure
 
 react-weather-app/
 ├── public/
@@ -72,21 +68,28 @@ react-weather-app/
 │   ├── WeatherApp.css
 │   ├── index.css
 │   └── main.jsx
+├── .env                 # Local only; not committed
 ├── .gitignore
 ├── index.html
 ├── package.json
-└── README.md
+├── package-lock.json
+└── vite.config.js
 
-🎯 Purpose
+📚 What I Learned
 
-This project helped me practice React components, state management with hooks, API integration, asynchronous JavaScript, error handling, and responsive UI development.
+* Building reusable React components
+* Managing state with React Hooks
+* Fetching data from a REST API
+* Handling asynchronous requests and errors
+* Styling a responsive interface with CSS and Material UI
+* Managing environment variables with Vite
 
 👨‍💻 Author
 
 Shreyansh Mishra
 
-* GitHub: @ShreyanshM1
+GitHub Profile
 
 ⸻
 
-⭐ If you find this project useful, consider giving the repository a star.
+If you find this project useful, feel free to ⭐ the repository!
